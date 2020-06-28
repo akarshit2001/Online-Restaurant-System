@@ -1,0 +1,51 @@
+body{
+    background-color:#c82333;
+}
+#one{
+    background-color: #ffc107;
+    border:0px;
+border-radius: 0px;
+margin-bottom: 15px;
+}
+#butto{
+    border: 2px solid black;
+}
+.fa {
+    color: black;
+}
+
+
+a:hover{
+    background-color: #20c997;
+}
+.navbar-brand{
+    padding: 25px;
+}
+.navbar-brand h1{
+    font-weight: bold;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+}
+#logo-img{
+    background-image: url("../images/restaurant-logo.png");
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0px;
+    float: left;
+}
+#call-btn{
+    text-align: center;
+    border: 2px solid white;
+    background-color: #20c997;
+    font-weight: bold;
+    margin: 25px 10px 15px 10px;
+
+}
+
+.container .jumbotron{
+    background-size: cover;
+}
+
+
+
