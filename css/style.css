@@ -43,8 +43,40 @@ a:hover{
 
 }
 
-.container .jumbotron{
+
+#specials{
+    border: 2px solid black;
+    background-image: url("../images/special1-tile.jpg");
     background-size: cover;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+}
+
+#menu{
+    border: 2px solid black;
+    background-image: url("../images/menu1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+}
+#map-tile{
+    margin-bottom: 15px;
+width: 100%;
+    height: 250px;
+    border: 2px solid black;
+
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.panel-footer{
+    background-color: #4e555b;
+    color: white;
 }
 
 
