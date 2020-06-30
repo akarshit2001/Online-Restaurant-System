@@ -11,7 +11,9 @@ margin-bottom: 15px;
     border: 2px solid black;
 }
 .fa {
-    color: black;
+
+    size: 50px;
+    color: #c82333;
 }
 
 
@@ -78,6 +80,20 @@ width: 100%;
     background-color: #4e555b;
     color: white;
 }
+#hours ,#testimonials ,#address{
+    text-align: center;
+}
+/* menu.html*/
+
+.category-title{
+    border: 2px solid black;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
 
 
 
