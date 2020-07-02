@@ -1,10 +1,13 @@
-$(function () { // Same as document.addEventListener("DOMContentLoaded"...
+$(function () {
 
-    // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
     $("#butto").blur(function (event) {
         var screenWidth = window.innerWidth;
         if (screenWidth < 768) {
             $("#navbarSupportedContent").collapse('hide');
         }
+    });
+
+    $("#butto").click(function (event) {
+        $(event.target).focus();
     });
 });
