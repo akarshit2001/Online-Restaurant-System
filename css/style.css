@@ -90,6 +90,9 @@ width: 100%;
 }
 /* menu.html*/
 
+
+
+
 .category-title{
     border: 3px solid #b9bbbe;
     margin: 10px;
@@ -104,4 +107,34 @@ width: 100%;
     background-color: #4e555b;
 }
 
+/* specials.html*/
 
+
+.row div{
+    border: 1px solid #c82333;
+padding-bottom: 3px;
+}
+
+.row img{
+    border: 2px solid white;
+    margin-bottom: 2px;
+}
+.row p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #ffc107;
+    text-align: center;
+}
+/* Form */
+
+.container form{
+    background-color: #ffc107;
+    padding-left: 10vw;
+    margin: 10px;
+}
+.container form input{
+    margin-left: 20vw;
+}
+.container form button{
+    margin-left: 20vw;
+}
