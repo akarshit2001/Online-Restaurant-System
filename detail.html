@@ -76,6 +76,7 @@ font-size: 25px;
     <form onsubmit="return validate() " action="index.html">
         <br><br>
         <input type="text" required id="a1" placeholder="Enter your Name">
+        <label id="use" style="color: red;visibility: hidden">Invalid</label>
 
         <br>
         <br>
@@ -83,8 +84,8 @@ font-size: 25px;
 
         <br>
         <br>
-        <input type="text" required id="c1" placeholder="Phone NUmber">
-
+        <input type="text" placeholder="phonenuber" id="phone">
+        <label id="ch" style="visibility: hidden">Invalid</label>
         <br>
         <br>
         <input type="text" required id="d1" placeholder="Order">
@@ -92,6 +93,9 @@ font-size: 25px;
         <br><br>
         <button type="submit">Submit</button>
     </form>
+    <div style="font-size: 20px;color: yellow" ><b> ** Payment mode is only Cash  on delivery !
+    </b>
+    </div>
 </div>
 
 
@@ -160,7 +164,7 @@ font-size: 25px;
                 <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
             </section>
         </div>
-        <div class="text-center">&copy; Copyright Parrallex Restaurant 2020</div>
+        <div class="text-center">&copy Copyright Parrallex Restaurant 2020</div>
     </div>
 </footer>
 
