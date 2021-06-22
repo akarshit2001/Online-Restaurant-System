@@ -2,4 +2,4 @@
 
 
 
-https://akarshit2001.github.io/Parrallex/
+https://akarshit2001.github.io/Online-Restaurant-System/
